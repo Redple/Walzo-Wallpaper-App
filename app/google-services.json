@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "684165718518",
+    "project_id": "walzo-2cd88",
+    "storage_bucket": "walzo-2cd88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684165718518:android:de89cdeb8e64ecb63927d7",
+        "android_client_info": {
+          "package_name": "com.redple.walzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684165718518-7k6nri8du374gm2gnnntdmiu22jldhg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redple.walzo",
+            "certificate_hash": "9773ac161370301eecdaafa3d25f71ad77f5696d"
+          }
+        },
+        {
+          "client_id": "684165718518-tnd60bqfu7nl9r5ng3iraq7mg69ahcrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbLRM95p3ja94HpwYB1J5DxbjhpFwiMCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684165718518-tnd60bqfu7nl9r5ng3iraq7mg69ahcrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

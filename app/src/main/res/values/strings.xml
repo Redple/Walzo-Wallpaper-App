@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Walzo</string>
+    <string name="api_key">563492ad6f9170000100000109d7e60a736c42e09a6b60a10cc62b35</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="walzo">Walzo</string>
+
+    <string name="ADMOB_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ADMOB_INTER_ID">ca-app-pub-3940256099942544/1033173712</string>
+</resources>

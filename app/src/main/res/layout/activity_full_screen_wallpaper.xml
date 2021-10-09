@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FullScreenWallpaper"
+    android:background="@color/dark_background">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/progress_bar"
+        android:visibility="visible"/>
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/photoView"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSetWallpaper"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/photoView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Set as Wallpaper"
+        android:background="@drawable/set_button_ripple"
+        android:textColor="@color/dark_background"
+        android:fontFamily="@font/product_sans_regular"
+        android:layout_margin="10dp"
+        android:onClick="SetWallpaperEvent">
+        </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDownloadWallpaper"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSetWallpaper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Download Wallpaper"
+        android:background="@drawable/set_button_ripple"
+        android:textColor="@color/dark_background"
+        android:fontFamily="@font/product_sans_regular"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:onClick="DownloadWallpaperEvent"
+        tools:ignore="OnClick">
+    </Button>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

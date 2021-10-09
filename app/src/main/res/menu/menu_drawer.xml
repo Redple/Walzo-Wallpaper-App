@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group>
+
+
+        <item
+            android:id="@+id/nav_More"
+            android:title="More"
+            android:icon="@drawable/about_icon" />
+
+        <item
+            android:id="@+id/nav_Share"
+            android:title="Share"
+            android:icon="@drawable/share_icon" />
+
+        <item
+            android:id="@+id/nav_About"
+            android:title="About us"
+            android:icon="@drawable/about_icon" />
+
+        <item
+            android:id="@+id/nav_Privacy_policy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/privacy_icon" />
+
+    </group>
+</menu>

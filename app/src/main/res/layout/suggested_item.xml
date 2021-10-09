@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="5dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/suggestedImage"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            app:civ_border_color="@color/dark_background"
+            app:civ_border_width="1dp"
+            android:src="@drawable/nature_back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suggestedTitle"
+            android:text="Nature"
+            android:textColor="@color/dark_background"
+            android:fontFamily="@font/product_sans_bold"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@+id/suggestedImage"
+            android:layout_toRightOf="@+id/suggestedImage" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
